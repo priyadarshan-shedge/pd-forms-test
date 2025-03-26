@@ -29,3 +29,13 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.api ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards.api ul li p span {
+  font-size: 24px;
+  color: blueviolet;
+}
